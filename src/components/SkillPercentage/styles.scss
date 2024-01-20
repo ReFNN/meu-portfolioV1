@@ -1,0 +1,24 @@
+// .skill {
+    
+// }
+
+.skillName {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+    span {
+        font-size: 0.9rem;
+    }
+}
+
+.lineSkill {
+    background-color: var(--principal4);
+    height: 0.7rem;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.line {
+    background-color: var(--principal2);
+    height: 100%;
+}

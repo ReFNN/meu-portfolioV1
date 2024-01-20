@@ -1,0 +1,15 @@
+.containerRight1 {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+
+    overflow-y: scroll;
+    padding-left: 5rem;
+    padding-bottom: 1rem;
+}
+
+.containerRight1::-webkit-scrollbar {
+    display: none;
+  }

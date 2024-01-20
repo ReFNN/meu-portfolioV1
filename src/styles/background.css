@@ -1,0 +1,30 @@
+body {
+    background: url('../assets/imgs/Backgroundf60bd508.png');
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+    background-color: #141414;
+}
+body:after, body:before {
+    content: "";
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+body:before {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    background: rgba(0,0,0,.3);
+}
+
+body:after {
+    position: absolute;
+    top: -14rem;
+    height: 50%;
+    background: #09ff00;
+    border-radius: 50%;
+    filter: blur(40px);
+    opacity: .08;
+}

@@ -1,0 +1,113 @@
+.containerRight {
+    section {
+        width: 100%;
+    }
+}
+
+.headerExperience {
+    cursor: default;
+    margin-bottom: 1rem;
+
+    div:first-of-type {
+        h1 {
+            color: var(--branco1);
+            font-weight: 700;
+            font-size: 2.5rem;
+        }
+        span {
+            color: var(--branco2);
+            font-weight: 500;
+        }
+    }
+}
+
+.bttHeader {
+    display: flex;
+    gap: 1rem;
+    padding-top: 1rem;
+    border-bottom: 1.5px solid var(--branco3);
+    padding-bottom: 1rem;
+
+    button {
+        background-color: rgba(255, 255, 255, 0);
+        border-radius: 10px;
+        border: 2px solid var(--branco4);
+        width: 11rem;
+        height: 2.7rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--branco1);
+        text-decoration: none;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+
+    button:hover {
+        color: var(--branco1);
+        background-color: rgba(255, 255, 255, 0.068);
+    }
+}
+
+.btt-active {
+    color: var(--branco1) !important;
+    background-color: rgba(255, 255, 255, 0.068) !important
+}
+
+.mainExperience {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1.5px solid var(--branco3);
+    padding-block: 10px;
+}
+
+.footerExperience {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-block: 1rem;
+    span {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+}
+
+.iconsSocial {
+    ul {
+        list-style: none;
+        display: flex;
+        gap: 0.8rem;
+        align-items: center;
+
+        li {
+            a {
+                border: 2px solid var(--branco4);
+                border-radius: 0.7rem;
+                padding: 1rem 0.8rem 0.6rem 0.8rem;
+            }
+            a:hover {
+                color: var(--branco1);
+                background-color: rgba(255, 255, 255, 0.068);
+            }
+
+            div {
+                border: 2px solid var(--branco4);
+                border-radius: 0.7rem;
+                padding: 0.8rem 0.8rem 0.5rem 0.8rem;
+                display: flex;
+                gap: 0.5rem;
+                span {
+                    font-size: 1rem;
+                    color: var(--branco2);
+                    padding: 0rem 0rem 0.3rem 0rem;
+                    cursor: default;
+                }
+            }
+
+            div:hover {
+                color: var(--branco1);
+                background-color: rgba(255, 255, 255, 0.068);
+            }
+        }
+    }
+}

@@ -1,0 +1,43 @@
+.gridCard {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: var(--branco6);
+    border-radius: 0.4rem;
+    border: 0.1rem solid var(--branco4);
+    text-decoration: none;
+    gap: 1rem;
+    
+    div {
+        
+        img {
+            width: 100%;
+        }
+    
+        h3 {
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+
+        span {
+            font-weight: 300;
+            color: var(--branco2);
+        }
+    }
+    
+}
+
+.titleGame {
+    display: flex;
+    justify-content: space-between;
+    
+    h4{
+        color: var(--principal2);
+    }
+}
+
+.iconsSkills {
+    display: flex;
+    gap: 0.8rem;
+    margin-top: auto;
+}
