@@ -148,3 +148,12 @@
         cursor: default;
     }
 }
+
+
+// RESPONSIVIDADE
+
+@media screen and (max-width: 1024px) {
+    .containerMenu{
+        display: none;
+    }
+}

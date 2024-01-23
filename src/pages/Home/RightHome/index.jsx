@@ -23,12 +23,9 @@ export default function RightHome() {
                         <span>
                             tenho 24 anos e aluno do 5º semestre de Análise e
                             Desenvolvimento de Sistemas pela Faci Wyden.
-                            <br></br>
-                            <br></br>
                             Após alguns anos trabalhando como designer gráfico,
                             decidi seguir a carreira que almejo como
-                            programador.<br></br>
-                            <br></br>
+                            programador.
                             Busco uma oportunidade como desenvolvedor para
                             aprender, demonstrar e evoluir minhas habilidades.
                         </span>
@@ -45,13 +42,10 @@ export default function RightHome() {
                             Download C.V
                         </a>
                     </div>
-                    <div className='personalPic'>
                         <img
                             src={PersonalPic}
                             alt='Foto de Perfil'
-                            width={'100%'}
                         />
-                    </div>
                 </div>
                 <div className='footerHome'>
                     <div>
