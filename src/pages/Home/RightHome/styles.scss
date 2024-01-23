@@ -208,3 +208,46 @@
     }
   }
 }
+
+@media screen and (max-width: 590px) {
+    .headerHome {
+        margin-bottom: 1rem;
+    
+        div {
+            border-bottom: 1.5px solid var(--branco3);
+            padding-bottom: 10px;
+    
+            h1 {
+                color: var(--principal1);
+                font-weight: 700;
+                font-size: 2rem;
+            }
+            span {
+                font-size: 0.9rem;
+                color: var(--branco2);
+                font-weight: 500;
+            }
+        }
+        
+    }
+
+    .mainHome {
+        .AboutMe{
+            width: 95%;
+            h1 {
+                font-size: 5.5vw;
+            }
+            span {
+                font-size: 1rem;
+            }
+            
+        img {
+            opacity: 0.8;
+        }
+    }
+  }
+
+  .padding-calc{
+    padding: 0;
+  }
+}
