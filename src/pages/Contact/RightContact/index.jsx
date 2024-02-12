@@ -66,7 +66,7 @@ export default function RightContact() {
                                 type='email'
                                 name='name'
                                 id='name'
-                                placeholder='Ricardo Millos'
+                                placeholder='Digite seu nome...'
                             />
                         </div>
                         <div>
@@ -75,7 +75,7 @@ export default function RightContact() {
                                 type='email'
                                 name='email'
                                 id='email'
-                                placeholder='ricardomillos@gmail.com'
+                                placeholder='seuemail@email.com'
                             />
                         </div>
                         <div>
@@ -88,7 +88,9 @@ export default function RightContact() {
                                 placeholder='Escreva algo aqui...'
                             ></textarea>
                         </div>
-                        <button type='submit' disabled>Enviar</button>
+                        <button type='submit' disabled>
+                            Enviar
+                        </button>
                     </form>
                 </div>
             </section>

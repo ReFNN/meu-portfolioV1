@@ -44,3 +44,53 @@
         background-color: rgba(255, 255, 255, 0.068);
     }
 }
+
+@media screen and (max-width: 590px) {
+    .bttHeaderContact {
+        display: flex;
+        gap: 0.8rem;
+        padding-top: 1rem;
+        border-bottom: 1.5px solid var(--branco3);
+        padding-bottom: 1rem;
+    
+        a {
+            background-color: rgba(255, 255, 255, 0);
+            border-radius: 10px;
+            border: 2px solid var(--branco4);
+            width: 8rem;
+            height: 2.7rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--branco1);
+            text-decoration: none;
+            font-size: 0.9rem;
+            cursor: pointer;
+            padding-inline: 0.5rem;
+        }
+    
+        a:hover {
+            color: var(--branco1);
+            background-color: rgba(255, 255, 255, 0.068);
+        }
+    
+        div {
+            border: 2px solid var(--branco4);
+            border-radius: 0.7rem;
+            padding: 0.6rem 1rem 0.3rem 1rem;
+            display: flex;
+            gap: 0.5rem;
+            span {
+                font-size: 1rem;
+                color: var(--branco2);
+                padding: 0rem 0rem 0.3rem 0rem;
+                cursor: default;
+            }
+        }
+    
+        div:hover {
+            color: var(--branco1);
+            background-color: rgba(255, 255, 255, 0.068);
+        }
+    }
+}

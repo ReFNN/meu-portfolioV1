@@ -36,3 +36,13 @@
         text-decoration: none;
     }
 }
+
+@media screen and (max-width: 770px) {
+    .containerGrid {
+        display: grid;
+        grid-template-columns: repeat(1,minmax(0,1fr));
+        gap: 1rem;  
+        border-bottom: 1.5px solid var(--branco3);
+        padding-bottom: 2rem;
+    }
+}

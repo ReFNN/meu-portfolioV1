@@ -3,14 +3,18 @@ import './styles.scss';
 
 import LeftMenu from '../../components/LeftMenu';
 import RightHome from './RightHome';
+import HeaderMobile from '../../components/HeaderMobile';
 
 export default function Home() {
     return (
-        <main className='padding-calc'>
-            <div className='centerContainer'>
-                <LeftMenu actRoute={'/'} />
-                <RightHome />
-            </div>
-        </main>
+        <>
+            <HeaderMobile actRoute={'/'}/>
+            <main className='padding-calc'>
+                <div className='centerContainer'>
+                    <LeftMenu actRoute={'/'} />
+                    <RightHome />
+                </div>
+            </main>
+        </>
     );
 }
