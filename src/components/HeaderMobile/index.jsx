@@ -3,7 +3,7 @@ import './styles.scss';
 import BurgerMenu from './BurgerMenu';
 import { Link } from 'react-router-dom';
 
-export default function HeaderMobile({actRoute}) {
+export default function HeaderMobile({ actRoute }) {
     return (
         <header>
             <Link to='/' className='profilePic'>
